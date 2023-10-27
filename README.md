@@ -1,5 +1,5 @@
 
-#Non server driven UI
+# Non server driven UI
 
 The client is going to make a request to the server.
 The server is going to give some sort of response back to the client.
@@ -31,7 +31,7 @@ The server simply changed the structure of the JSON sent to the client and the c
 So you don't really have to even push a new version of the App Store to make that change.
 You can simply change the response sent from the server and that will allow the client, meaning your iPhone app, to be different, to be change.
 
-##Benefits
+## Benefits
 ###One of the biggest benefits of server driven UI is the ability to change the user interface without going through the app review. You can simply change the JSON that you're returning and send the whole interface.
 It's controlled by the JSON.
 You can simply change the user interface provided that the components that you are targeting.
@@ -42,13 +42,13 @@ If you want the rating to be on the top, you put the ratings control or the comp
 That is great.
 And that allows you to change the interface instantly.
 
-###Another great benefit of server driven UI is that you can instantly update on multiple platforms. 
+### Another great benefit of server driven UI is that you can instantly update on multiple platforms. 
 So if you are targeting your app for iOS, Android and Web and all of them are reading from the same JSON, all of them are using server driven UI.
 Then once you change the JSON, it will automatically update on all the platforms and all the platforms will be sync with each other and they will reflect the changes.
 
 A lot of companies are doing it. Airbnb, you have Uber and a lot of different Spotify.
 
-###And the other benefit that you get is you can easily perform AB testing because AB testing, you can simply go ahead and change your structure.
+### And the other benefit that you get is you can easily perform AB testing because AB testing, you can simply go ahead and change your structure.
 JSON
 
 And with the actions that you will later on, you can completely change the navigation.
