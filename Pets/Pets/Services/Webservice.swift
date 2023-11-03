@@ -13,7 +13,7 @@ enum NetworkError: Error {
 }
 
 class Webservice {
-    func load(resource: String) async throws {
+    func load(resource: String) async throws -> ScreenModel {
         guard let url = URL(string: resource) else {
             throw NetworkError.invalidUrl
         }
@@ -23,5 +23,7 @@ class Webservice {
         guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
             throw NetworkError.invalidServerResponse
         }
+        
+        return try JSONDecoder().decode(ScreenModel.self, from: data)
     }
 }
