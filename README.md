@@ -70,3 +70,9 @@ and create a carousel component, the carousel component, the live component, the
 the rating component, whatever component that you are trying to render, will eventually render the
 view.
 
+
+
+## Imp links
+
+# JSONView extension
+https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd/related
