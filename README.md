@@ -55,5 +55,18 @@ And with the actions that you will later on, you can completely change the navig
 Maybe you are currently saying that, hey, we will go from point A to point B, but if you want to
 go from point A to point V, you can do that because all the navigation is also controlled by the server, by the JSON. And now you are displaying a carousel instead of a images and you can be easily a B test without having to redeploy your app.
 
-###You can also control the view presentations. Maybe currently you are displaying a particular view in a model in a sheet, but you're like, hey, I want to displayed in a push navigation.
+### You can also control the view presentations. Maybe currently you are displaying a particular view in a model in a sheet, but you're like, hey, I want to displayed in a push navigation.
 So you can also do that. And that is all the great benefits of server driven UI.
+
+# Core Architecture
+
+We get JSON response from server that will be mapped to the UI Models.
+UI model we will create in our client (iPhone application)
+
+Those UI models which will be a representation of the JSON that you received from the server, will be passed to
+components based on the type of the UI model and we will create a particular component. And in the end, the component will be responsible for rendering a particular view.
+So if you're saying that, hey, I want to get a carousel, then we will map it to a carousel UI model
+and create a carousel component, the carousel component, the live component, the featured image component,
+the rating component, whatever component that you are trying to render, will eventually render the
+view.
+
