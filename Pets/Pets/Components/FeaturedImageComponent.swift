@@ -23,5 +23,5 @@ struct FeaturedImageComponent: UIComponent {
         } placeholder: {
             ProgressView()
         }.toAnyView()
-    }    
+    }
 }
