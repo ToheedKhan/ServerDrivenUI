@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var vm: PetListViewModel
+    
+    init() {
+        _vm = StateObject(wrappedValue: PetListViewModel(service: Webservice()))
+    }
+   
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            ScrollView {
+                ForEach(vm.components, id: \.uniqueId) { component in
+                    component.render()
+                }
+                
+                .navigationTitle("Pets")
+            }.task {
+                await vm.load()
+            }
         }
-        .padding()
     }
 }
 

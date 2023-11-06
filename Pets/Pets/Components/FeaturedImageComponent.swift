@@ -12,7 +12,8 @@ struct FeaturedImageComponent: UIComponent {
     
     let uiModel: FeaturedImageUIModel
     
-    var uniqueId: String {
+    var uniqueId: String { //(For SwiftUI forEach loop)Working with data that does not conform to Identifiable
+
         return ComponentType.featuredImage.rawValue
     }
     

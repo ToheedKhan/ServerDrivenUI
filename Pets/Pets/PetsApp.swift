@@ -11,6 +11,8 @@ import SwiftUI
 struct PetsApp: App {
     var body: some Scene {
         WindowGroup {
+            // To turn off swiftUI constraint warnings
+//            let _ = UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
             ContentView()
         }
     }
