@@ -30,8 +30,12 @@ class Navigator {
         
         switch action.destination {
         case .petDetail:
-            destinationView = Text("Pet Detail").toAnyView()
-        }
+            if let payload = payload as? URL {
+                destinationView = Text("\(payload.absoluteString)").toAnyView()
+            } else {
+                destinationView = EmptyView().toAnyView()
+            }
+    }
         
         switch action.type {
         case .sheet:
