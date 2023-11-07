@@ -16,9 +16,9 @@ struct CarouselView: View {
             
             HStack {
                 
-                ForEach(uiModel.imageUrls, id: \.self) { url in
-                    Navigator.perform(action: uiModel.action, payload: url) {
-                        AsyncImage(url: url) { image in
+                ForEach(uiModel.items) { item in
+                    Navigator.perform(action: uiModel.action, payload: item) {
+                        AsyncImage(url: item.imageUrl) { image in
                             image
                                 .resizable()
                                 .frame(width: 200, height: 200)

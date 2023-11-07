@@ -30,8 +30,8 @@ class Navigator {
         
         switch action.destination {
         case .petDetail:
-            if let payload = payload as? URL {
-                destinationView = Text("\(payload.absoluteString)").toAnyView()
+            if let payload = payload as? CarouselRowUIModel {
+                destinationView = Text("\(payload.petId)").toAnyView()
             } else {
                 destinationView = EmptyView().toAnyView()
             }
