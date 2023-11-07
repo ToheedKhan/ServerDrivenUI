@@ -15,5 +15,3 @@ struct Action: Decodable {
     let type: ActionType
     let destination: Route
 }
-
-
