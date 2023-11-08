@@ -76,3 +76,25 @@ view.
 
 # JSONView extension
 https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd/related
+
+
+# Server Setup
+
+# Modules installatio 
+
+## cors
+
+ npm install cors
+
+##plugin
+
+**Nodemon**
+Nodemon is a tool that helps you develop and test your code quickly and efficiently. It monitors changes to your code in real-time and restarts your server as soon as changes are detected, rather than waiting for the changes to take effect before starting your server again. This can save you a lot of time and reduce the need for manual reloading of your server
+
+npm install -g nodemon
+
+To start a server
+nodemon app.js
+
+To check nodemon installation
+npm list -g

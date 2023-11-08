@@ -12,7 +12,7 @@ struct ContentView: View {
     @StateObject private var vm: PetListViewModel
     
     init() {
-        _vm = StateObject(wrappedValue: PetListViewModel(service: LocalService()))
+        _vm = StateObject(wrappedValue: PetListViewModel(service: Webservice()))
     }
    
     var body: some View {
