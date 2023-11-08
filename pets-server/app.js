@@ -55,6 +55,12 @@ app.get('/pet-detail/:petId', (req, res) => {
                 data: {
                     text: pet.description 
                 }
+            }, 
+            {
+                type: 'ratingRow', 
+                data: {
+                    rating: pet.rating 
+                }
             }
         ]
     }
