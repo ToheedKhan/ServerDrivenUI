@@ -11,11 +11,12 @@ import SwiftUI
 struct FeaturedImageComponent: UIComponent {
     
     let uiModel: FeaturedImageUIModel
-    
-    var uniqueId: String { //(For SwiftUI forEach loop)Working with data that does not conform to Identifiable
+    let id = UUID()
 
-        return ComponentType.featuredImage.rawValue
-    }
+//    var uniqueId: String { //(For SwiftUI forEach loop)Working with data that does not conform to Identifiable
+//
+//        return ComponentType.featuredImage.rawValue
+//    }
     
     func render() -> AnyView {
         AsyncImage(url: uiModel.imageUrl) { image in
