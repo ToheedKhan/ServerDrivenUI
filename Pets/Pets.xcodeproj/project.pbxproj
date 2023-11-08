@@ -24,6 +24,7 @@
 		8A3845F62AFBAD3700109468 /* RatingRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845F52AFBAD3700109468 /* RatingRowUIModel.swift */; };
 		8A3845F82AFBAD4D00109468 /* RatingRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845F72AFBAD4D00109468 /* RatingRowComponent.swift */; };
 		8A3845FA2AFBAD7400109468 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845F92AFBAD7400109468 /* RatingView.swift */; };
+		8A3845FC2AFBB23800109468 /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845FB2AFBB23800109468 /* ListUIModel.swift */; };
 		8ACC14CA2AF525C600BFFFA3 /* PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */; };
 		8ACC14CC2AF525C600BFFFA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */; };
 		8ACC14CE2AF525C900BFFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC14CD2AF525C900BFFFA3 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		8A3845F52AFBAD3700109468 /* RatingRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRowUIModel.swift; sourceTree = "<group>"; };
 		8A3845F72AFBAD4D00109468 /* RatingRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingRowComponent.swift; sourceTree = "<group>"; };
 		8A3845F92AFBAD7400109468 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		8A3845FB2AFBB23800109468 /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
 		8ACC14C62AF525C600BFFFA3 /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApp.swift; sourceTree = "<group>"; };
 		8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				8A3845DA2AFA324300109468 /* CarouselUIModel.swift */,
 				8A3845F12AFBA95500109468 /* TextRowUIModel.swift */,
 				8A3845F52AFBAD3700109468 /* RatingRowUIModel.swift */,
+				8A3845FB2AFBB23800109468 /* ListUIModel.swift */,
 			);
 			path = UIModels;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				8A3845EA2AFA6C1400109468 /* Navigator.swift in Sources */,
 				8A3845E82AFA685600109468 /* Action.swift in Sources */,
 				8A3845D92AF92C0000109468 /* JSON.swift in Sources */,
+				8A3845FC2AFBB23800109468 /* ListUIModel.swift in Sources */,
 				8ACC14E92AF5358B00BFFFA3 /* View+Extensions.swift in Sources */,
 				8A3845DD2AFA325E00109468 /* CarouselComponent.swift in Sources */,
 				8ACC14E22AF530D200BFFFA3 /* UIComponent.swift in Sources */,
