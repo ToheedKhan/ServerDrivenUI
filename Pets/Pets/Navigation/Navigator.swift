@@ -35,14 +35,19 @@ class Navigator {
             } else {
                 destinationView = EmptyView().toAnyView()
             }
-    }
+        }
         
         switch action.type {
         case .sheet:
             return SheetView(content: {
                 content()
             }, destinationView: destinationView).toAnyView()
+        case .push:
+            return NavigationLink {
+                destinationView
+            }  label: {
+                content()
+            }.toAnyView()
         }
-        
     }
 }

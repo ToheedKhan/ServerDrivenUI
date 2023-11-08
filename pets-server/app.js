@@ -112,7 +112,8 @@ app.get('/pet-listing', (req, res) => {
                         {
                             id: 2,
                             title: "Barnie",
-                            subTitle: "This is a great pet!"
+                            imageUrl: 'https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+                            description: 'This is good pet. Lovely and beautiful. It is 3 years old and has very sharp teeth. It like milk and bread and roaming out in the park.'
                         }
 
                     ],
