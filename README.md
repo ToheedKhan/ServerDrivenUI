@@ -101,3 +101,35 @@ npm list -g
 
 
 ## Route paramter in node.js represented by :(paramName)
+
+# Starter Project for ReactJS Server Driven UI Project
+One of the benefits of server driven UI is that the same JSON can be used for several different platforms. This means we can build a web project, which renders the UI based on the response from the server.
+
+** Steps to run Pets-Web:**
+
+
+
+Download or clone the above repository.
+
+Go to the root folder “pets-web” and run “npm install”. This will install all the required packages for your application.
+
+Make sure the Node/Express server is running.
+
+Browse to localhost:3000 to view your React project.
+https://github.com/azamsharp/Pets-Web
+
+
+## Next Steps and Resources
+
+
+- Deep Dive into Airbnb Server Driven UI System - https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5
+
+- The Possible Types of Server Driven UI for Mobile - https://medium.com/mobile-app-development-publication/the-possible-types-of-server-driven-ui-for-mobile-128e8c4433bb
+
+- Server Driven UI, Part 1: The Concept - https://joebirch.co/android/server-driven-ui-part-1-the-concept/
+
+- Exploring Server-Driven UI - https://betterprogramming.pub/exploring-server-driven-ui-cf67b3da919
+
+- Server Driven UI - http://tom.lokhorst.eu/2020/07/server-driven-ui
+
+- Building Server Driven UI Using UIComponents in SwiftUI -  https://betterprogramming.pub/build-a-server-driven-ui-using-ui-components-in-swiftui-466ecca97290

@@ -27,6 +27,7 @@
 		8A3845FC2AFBB23800109468 /* ListUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845FB2AFBB23800109468 /* ListUIModel.swift */; };
 		8A3845FE2AFBBF9B00109468 /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845FD2AFBBF9B00109468 /* ListComponent.swift */; };
 		8A3846002AFBBFBE00109468 /* RowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845FF2AFBBFBE00109468 /* RowComponent.swift */; };
+		8A3846022AFBCDF900109468 /* EmptyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3846012AFBCDF900109468 /* EmptyComponent.swift */; };
 		8ACC14CA2AF525C600BFFFA3 /* PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */; };
 		8ACC14CC2AF525C600BFFFA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */; };
 		8ACC14CE2AF525C900BFFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC14CD2AF525C900BFFFA3 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		8A3845FB2AFBB23800109468 /* ListUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUIModel.swift; sourceTree = "<group>"; };
 		8A3845FD2AFBBF9B00109468 /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 		8A3845FF2AFBBFBE00109468 /* RowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowComponent.swift; sourceTree = "<group>"; };
+		8A3846012AFBCDF900109468 /* EmptyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyComponent.swift; sourceTree = "<group>"; };
 		8ACC14C62AF525C600BFFFA3 /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApp.swift; sourceTree = "<group>"; };
 		8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				8A3845F72AFBAD4D00109468 /* RatingRowComponent.swift */,
 				8A3845FD2AFBBF9B00109468 /* ListComponent.swift */,
 				8A3845FF2AFBBFBE00109468 /* RowComponent.swift */,
+				8A3846012AFBCDF900109468 /* EmptyComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				8A3845DD2AFA325E00109468 /* CarouselComponent.swift in Sources */,
 				8ACC14E22AF530D200BFFFA3 /* UIComponent.swift in Sources */,
 				8A3845F02AFB9E0D00109468 /* PetDetailViewModel.swift in Sources */,
+				8A3846022AFBCDF900109468 /* EmptyComponent.swift in Sources */,
 				8ACC14E42AF5311C00BFFFA3 /* FeaturedImageComponent.swift in Sources */,
 				8ACC14EE2AF536D100BFFFA3 /* PetListViewModel.swift in Sources */,
 				8A3845E22AFA32B600109468 /* CarouselView.swift in Sources */,
