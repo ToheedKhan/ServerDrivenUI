@@ -17,6 +17,8 @@
 		8A3845E62AFA684800109468 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845E52AFA684800109468 /* Route.swift */; };
 		8A3845E82AFA685600109468 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845E72AFA685600109468 /* Action.swift */; };
 		8A3845EA2AFA6C1400109468 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845E92AFA6C1400109468 /* Navigator.swift */; };
+		8A3845EE2AFB9DD400109468 /* PetDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845ED2AFB9DD400109468 /* PetDetailScreen.swift */; };
+		8A3845F02AFB9E0D00109468 /* PetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3845EF2AFB9E0D00109468 /* PetDetailViewModel.swift */; };
 		8ACC14CA2AF525C600BFFFA3 /* PetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */; };
 		8ACC14CC2AF525C600BFFFA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */; };
 		8ACC14CE2AF525C900BFFFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACC14CD2AF525C900BFFFA3 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		8A3845E52AFA684800109468 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		8A3845E72AFA685600109468 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		8A3845E92AFA6C1400109468 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		8A3845ED2AFB9DD400109468 /* PetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailScreen.swift; sourceTree = "<group>"; };
+		8A3845EF2AFB9E0D00109468 /* PetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewModel.swift; sourceTree = "<group>"; };
 		8ACC14C62AF525C600BFFFA3 /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACC14C92AF525C600BFFFA3 /* PetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsApp.swift; sourceTree = "<group>"; };
 		8ACC14CB2AF525C600BFFFA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		8A3845EC2AFB9D9600109468 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8A3845ED2AFB9DD400109468 /* PetDetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		8ACC14BD2AF525C600BFFFA3 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 		8ACC14C82AF525C600BFFFA3 /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				8A3845EC2AFB9D9600109468 /* Screens */,
 				8A3845E42AFA682F00109468 /* Navigation */,
 				8A3845E32AFA682800109468 /* Actions */,
 				8A3845DE2AFA329900109468 /* Views */,
@@ -192,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				8ACC14ED2AF536D100BFFFA3 /* PetListViewModel.swift */,
+				8A3845EF2AFB9E0D00109468 /* PetDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -274,6 +288,7 @@
 				8ACC14E92AF5358B00BFFFA3 /* View+Extensions.swift in Sources */,
 				8A3845DD2AFA325E00109468 /* CarouselComponent.swift in Sources */,
 				8ACC14E22AF530D200BFFFA3 /* UIComponent.swift in Sources */,
+				8A3845F02AFB9E0D00109468 /* PetDetailViewModel.swift in Sources */,
 				8ACC14E42AF5311C00BFFFA3 /* FeaturedImageComponent.swift in Sources */,
 				8ACC14EE2AF536D100BFFFA3 /* PetListViewModel.swift in Sources */,
 				8A3845E22AFA32B600109468 /* CarouselView.swift in Sources */,
@@ -283,6 +298,7 @@
 				8ACC14CA2AF525C600BFFFA3 /* PetsApp.swift in Sources */,
 				8A3845DB2AFA324300109468 /* CarouselUIModel.swift in Sources */,
 				8ACC14D92AF5264E00BFFFA3 /* Webservice.swift in Sources */,
+				8A3845EE2AFB9DD400109468 /* PetDetailScreen.swift in Sources */,
 				8ACC14DC2AF526A200BFFFA3 /* Constants.swift in Sources */,
 				8ACC14E62AF5316A00BFFFA3 /* FeaturedImageUIModel.swift in Sources */,
 				8A3845D52AF8DFCF00109468 /* NetworkService.swift in Sources */,

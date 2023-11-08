@@ -49,18 +49,6 @@ app.get('/pet-detail/:petId', (req, res) => {
                 data: {
                     imageUrl: pet.imageUrl 
                 }
-            }, 
-            {
-                type: 'textRow', 
-                data: {
-                    text: pet.description 
-                }
-            }, 
-            {
-                type: 'ratingRow', 
-                data: {
-                    rating: pet.rating 
-                }
             }
         ]
     }

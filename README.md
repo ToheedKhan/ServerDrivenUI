@@ -98,3 +98,6 @@ nodemon app.js
 
 To check nodemon installation
 npm list -g
+
+
+## Route paramter in node.js represented by :(paramName)
