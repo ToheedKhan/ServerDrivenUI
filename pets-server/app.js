@@ -123,6 +123,7 @@ app.get('/pet-listing', (req, res) => {
                     }
                 }
             },
+            {
             type: "grid", 
             data: {
                 text: "Hello I am grid component"
